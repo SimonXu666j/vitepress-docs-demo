@@ -26,6 +26,7 @@ export default defineConfig({
       { text: 'Front End', link: '/front-end/react' },
       { text: 'Backend End', link: '/backend/rabbitmq' },
       // { text: '两边栏演示', link: '/两边栏演示' }
+      { text: 'blog', link: '/posts'}
 
     ],
 
@@ -71,6 +72,12 @@ export default defineConfig({
         {
           text: 'Backend End',
           items: set_sidebar("backend/rabbitmq")
+        }
+      ],
+      '/posts': [
+        {
+          text: 'blog',
+          items: set_sidebar("posts")
         }
       ]
     },
